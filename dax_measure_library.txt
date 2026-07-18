@@ -1,0 +1,41 @@
+Total Games =
+SUM(FactFIFA[Games Played])
+
+Total Wins =
+SUM(FactFIFA[Win])
+
+Total Draws =
+SUM(FactFIFA[Draw])
+
+Total Losses =
+SUM(FactFIFA[Loss])
+
+Total Goals Scored =
+SUM(FactFIFA[Goals For])
+
+Total Goals Conceded =
+SUM(FactFIFA[Goals Against])
+
+Goal Difference =
+[Total Goals scored] - [Total goals conceded]
+
+Total Points =
+SUM(FactFIFA[Points])
+
+Win Rate =
+DIVIDE([Total Wins],[Total Games],0)
+
+Draw Rate =
+DIVIDE([Total Draws],[Total Games],0)
+
+Loss Rate =
+DIVIDE([Total Losses],[Total Games],0)
+
+Average Goals Per Game =
+DIVIDE([Total Goals Scored],[Total Games],0)
+
+Average Points =
+AVERAGE(FactFIFA[Points])
+
+Total Teams =
+DISTINTCOUNT(FactFIFA[Teams])

@@ -1,0 +1,24 @@
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# Visual Studio Code
+.vscode/
+
+# Power BI cache files
+*.tmp
+*.log
+*.bak
+
+# Python cache (if used)
+__pycache__/
+*.pyc
+
+# Environment files
+.env
+
+# Power BI temporary folders
+.pbi/
